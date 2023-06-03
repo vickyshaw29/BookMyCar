@@ -1,4 +1,3 @@
-import { StyleSheet } from 'react-native'
 import React from 'react'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_API_KEY} from '@env'

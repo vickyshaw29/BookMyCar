@@ -11,19 +11,19 @@ const data = [
     id: "BMC-X-123",
     title: "BMCX",
     multiplier: 1,
-    image: "https://links.papareact.com/3pn"
+    image: "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/UberX.png"
   },
   {
     id: "BMC-XL-456",
     title: "BMC XL",
     multiplier: 1.5,
-    image: "https://links.papareact.com/5w8"
+    image: "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/UberXL.png"
   },
   {
     id: "BMC-LUX-789",
     title: "BMC LUX",
     multiplier: 2.5,
-    image: "https://links.papareact.com/7pf"
+    image: "https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_485,h_385/f_auto,q_auto/products/carousel/Lux.png"
   }
 ]
 

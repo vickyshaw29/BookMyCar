@@ -1,4 +1,4 @@
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import React, { useEffect, useRef } from 'react';
 import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps'
 import tw from 'twrnc'
