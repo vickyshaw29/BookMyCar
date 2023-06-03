@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet, Text, View, Image } from 'react-native'
+import { SafeAreaView, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import tw from 'twrnc'
 import { NavFavourites, NavOptions } from '../components/molecules'
@@ -13,7 +13,10 @@ const HomeScreen:React.FC = () => {
   return (
     <SafeAreaView style={[tw`bg-white h-full`]}>
       <View style={tw`p-5`}>
-        <Image
+        <TouchableOpacity>
+          <Text style={tw`text-4xl font-semibold py-6`}>BMC</Text>
+        </TouchableOpacity>
+        {/* <Image
           source={{
             uri:"https://links.papareact.com/gzs",
           }}
@@ -22,7 +25,7 @@ const HomeScreen:React.FC = () => {
             height:100,
             resizeMode:'contain'
           }}
-        />
+        /> */}
         <CustomAutoCompleteFromGoogle
           onPress={(data: { description: any; },details:any=null)=>{
             console.log(details?.geometry,"details")

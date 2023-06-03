@@ -20,6 +20,7 @@ const NavigateCard = () => {
             <CustomAutoCompleteFromGoogle
                 placeholder='Where to'
                 onPress={(data: { description: any; },details:any=null)=>{
+                    console.log(details?.geometry?.location,"Location")
                     dispatch(setDestination({
                       location:details?.geometry?.location,
                       description: data?.description
@@ -30,7 +31,7 @@ const NavigateCard = () => {
             />
         </View>
          <NavFavourites/>    
-         <View style={tw`flex-row bg-white justify-evenly py-2 mt-auto border-t border-gray-100`}>
+         <View style={tw`flex-row bg-white justify-evenly py-2 mt-auto border-t border-gray-100 mt-4`}>
             <TouchableOpacity style={tw`flex flex-row justify-between bg-black justify-between w-24 px-4 py-3 rounded-full`}
               onPress={()=>navigation.navigate("RideOptionsCard")}
               >

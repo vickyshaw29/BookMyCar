@@ -17,13 +17,13 @@ export const navSlice = createSlice({
         setDestination:(state,action)=>{
             state.destination = action.payload
         },
-        travelTimeInformation:(state,action)=>{
+        setTravelTimeInformation:(state,action)=>{
             state.travelTimeInInformation = action.payload
         }
     }
 })
 
-export const { setOrigin, setDestination, travelTimeInformation } = navSlice.actions
+export const { setOrigin, setDestination, setTravelTimeInformation } = navSlice.actions
 export default navSlice.reducer
 
 //Selectors 
