@@ -1,4 +1,8 @@
 
+
+https://github.com/vickyshaw29/BookMyCar/assets/69159515/2732ab73-2716-4e58-953b-3f9721fb342a
+
+
 # BMC
 I have created this application named BookMyCar(BMC) using React Native, Tailwind, Redux Toolkit, different apis of google cloud like maps api, distance matrix api for calculating the distance and so on
 ## Features
@@ -8,6 +12,10 @@ I have created this application named BookMyCar(BMC) using React Native, Tailwin
 - Cross platform(Both for android and ios)
 
   
+
+
+
+
 
   
 ## Run Locally
